@@ -1,0 +1,68 @@
+$cto: #DCDCAA;
+$light: #CCCCCC;
+$blue: #569CD6;
+$lightblue: #9CDCFE;
+$darkblue: #000C18;
+$green: #4EC9B0;
+$pink: #C586C0;
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100%;
+    font-family: 'Source Code Pro', monospace;
+    color: $cto;
+    background-color: $darkblue;
+}
+
+h1 {
+    color: $cto;
+}
+
+h2 {
+    color: $blue;
+}
+
+
+main {
+    border-top: 1px solid $pink;
+    border-bottom: 1px solid $pink;
+}
+
+h4 {
+    color: $light;
+}
+
+p {
+    color: $green;
+}
+
+a, a:visited {
+    text-decoration: none;
+    color: $lightblue;
+}
+
+a:hover {
+    opacity: 0.75;
+}
+
+span {
+    color: $lightblue;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+}
+
+.icons li {
+  padding-right: 1em;
+}
