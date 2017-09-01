@@ -16,28 +16,34 @@ body {
     font-family: 'Source Code Pro', monospace;
     color: $cto;
     background-color: $darkblue;
+    margin-left: 1em;
+    margin-right: 1em;
 }
 
-h1 {
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    border-top: 1px solid $blue;
+}
+
+main div p:last-of-type {
+    margin-bottom: 1.33em;
+}
+
+h3 {
     color: $cto;
 }
 
-h2 {
-    color: $blue;
-}
-
-
-main {
-    border-top: 1px solid $pink;
-    border-bottom: 1px solid $pink;
-}
-
 h4 {
-    color: $light;
+    color: $cto;
 }
 
 p {
-    color: $green;
+    color: $light;
+    max-width: 640px;
 }
 
 a, a:visited {
@@ -46,7 +52,11 @@ a, a:visited {
 }
 
 a:hover {
-    opacity: 0.75;
+    color: $green;
+}
+
+svg:hover {
+    fill: $green;
 }
 
 span {
@@ -64,5 +74,5 @@ ul {
 }
 
 .icons li {
-  padding-right: 1em;
+    padding-right: 1em;
 }
